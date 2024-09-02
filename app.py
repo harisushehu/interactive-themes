@@ -73,4 +73,4 @@ else:
     # Run the app
     if __name__ == '__main__':
         # Specify host and port
-        app.run_server(debug=True, host='127.0.0.1', port=8061)
+        app.run_server(debug=True, host='0.0.0.0', port=8080)
